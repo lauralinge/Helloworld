@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(48, 131, 60);
+    font-family: arial;
+    max-width: 1200px;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;  
+}
+
+
+.container {
+    
+    display: flex;
+    gap: 20px;
+}
+
+div .right{
+    width: 35%;
+    
+}
+
+div .left{
+    width: 65%;
+   
+}
+
+p{
+    color: gray;
+}
+
+div .block-1 img{
+    width: 100%;
+}
+
+div .block-2 img{
+    width: 100%;
+}
+
+
+.block-1{
+    background: white;
+
+}
+
+.block-2{
+    margin-top: 20px;
+    background: white;
+
+}   
+.block-1 p{
+    background: white;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.block-1 h3{
+    line-height: 0.5em;
+}
+
+.block-2 p{
+    background: white;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.block-2 h3{
+    line-height: 0.5em;
+    
+}
+
+.box-1{
+    background: white;
+    width: 85%;
+
+    
+}
+.box-1 p, h3 {
+    text-align: left;
+}
+
+.box-1 h3{
+   padding: 0;
+   margin: 0;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   margin-left: 20px;
+ 
+}
+.box-1 p{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+div .box-1 img{
+    width: 100%;
+}
+
+.box-2{
+    margin-top: 20px;
+    background: white;
+    width: 85%;
+
+}
+.box-2 p, h3 {
+    padding: 20px;
+    text-align: left;
+}
+
+.box-2 h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+  
+ }
+ .box-2 p{
+     padding: 0;
+     margin: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+  }
+.box-3{
+    border: 2px solid white;
+    margin-top: 20px;
+    background: white;
+   
+    width: 85%;
+
+}
+.box-3 p, h3 {
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.box-3 h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+ }
+ .box-3 p{
+     padding: 0;
+     margin: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+  }
+
+.box-4{
+    border: 2px solid white;
+    margin-top: 20px;
+    background: white;
+    width: 85%;
+    
+}
+
+.box-4 p, h3 {
+    
+    text-align: left;
+}
+.box-4 h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+ }
+ .box-4 p{
+     padding: 0;
+     margin: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+  }
+
+.box-5{
+    border: 2px solid white;
+    margin-top: 20px;
+    background: white;
+    width: 85%;
+
+   
+}
+.box-5 p, h3 {
+    padding: 20px;
+    text-align: left;
+}
+.box-5 h3{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+ }
+ .box-5 p{
+     padding: 0;
+     margin: 0;
+     margin-left: 20px;
+     margin-right: 20px;
+     
+  }
+
+  .labas1{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+ }
+
+ .labas2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+ }
+
+ .labas3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-top: 84.5px;
+    font-size: 0.9em;
+ }
+
+ @media (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 20px;
+        width: 70%;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 0;
+        float: none;
+        display: block;
+    }
+    div .right {
+        flex-direction: column;
+        width: 117.5%;
+        margin-top: 20px;
+    }
+    div .left{
+        width: 100%;
+    }
+     .labas2{
+        margin-top: 20px;
+     }
+    
+     .labas3{
+        margin-top: 20px;
+    }
+
+    .block-2{
+        margin-top: 20px;
+    }
+}
